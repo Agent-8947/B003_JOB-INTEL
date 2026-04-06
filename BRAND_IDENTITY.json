@@ -1,0 +1,50 @@
+{
+    "creative_name": "NEXUS JOB-INTEL",
+    "slogan": "Recruitment Reconnaissance & Corporate Headhunting System.",
+    "sales_pitch": "Automated vacancy extraction and employer contact verification pipeline.",
+    "human_story": {
+        "what_it_is": {
+            "en": "A specialized crawler that scans job boards, identifies target vacancies in specific regions, and automatically finds the employer's direct contacts.",
+            "ua": "Спеціалізований краулер, що сканує дошки оголошень, ідентифікує вакансії в регіонах та автоматично знаходить контакти роботодавця.",
+            "ru": "Специализированный краулер, сканирующий доски объявлений, идентифицирующий вакансии в регионах и автоматически находящий контакты работодателя."
+        },
+        "who_needs_it": {
+            "en": "Recruiters, B2B sales teams, and job seekers who want to skip the middleman and contact decision-makers directly.",
+            "ua": "Рекрутери, B2B команди та кандидати, які бажають контактувати з роботодавцем напряму без посередників.",
+            "ru": "Рекрутеры, B2B команды и кандидаты, желающие контактировать с работодателем напрямую без посредников."
+        },
+        "how_it_works": {
+            "en": "Provide keywords and a city. The system scrapes vacancies, resolves company domains, and extracts verified emails and phone numbers from their websites.",
+            "ua": "Вкажіть ключові слова та місто. Система збере вакансії, знайде домени компаній та витягне верифіковані імейли та телефони.",
+            "ru": "Укажите ключевые слова и город. Система соберет вакансии, найдет домены компаний и вытянет верифицированные имейлы и телефоны."
+        },
+        "what_you_get": {
+            "en": "A structured database of leads: Vacancy Title -> Company -> Website -> HR Email -> Phone Number.",
+            "ua": "Структурована база лідів: Назва вакансії -> Компанія -> Сайт -> HR Email -> Телефон.",
+            "ru": "Структурированная база лидов: Название вакансии -> Компания -> Сайт -> HR Email -> Телефон."
+        }
+    },
+    "what_to_provide": {
+        "title": { "en": "Targeting parameters", "ua": "Параметри пошуку", "ru": "Параметры поиска" },
+        "items": {
+            "en": ["Job Keywords (e.g. 'Python Developer')", "Target Region / City", "Optional: Salary range or seniority level"],
+            "ua": ["Ключові слова (напр. 'Python Developer')", "Регіон / Місто пошуку", "Опційно: Зарплата або рівень"],
+            "ru": ["Ключевые слова (напр. 'Python Developer')", "Регион / Город поиска", "Опционально: Зарплата или уровень"]
+        },
+        "note": { "en": "The system filters findings based on contact availability.", "ua": "Система фільтрує результати за наявністю контактів.", "ru": "Система фильтрует результаты по наличию контактов." }
+    },
+    "deployment": {
+        "where": { "en": "Standard local execution or cloud-ready scraping service.", "ua": "Локальний запуск або хмарний сервіс парсингу.", "ru": "Локальный запуск или облачный сервис парсинга." },
+        "requirements": ["Python 3.10+", "Requests", "BeautifulSoup4", "Scrapy (optional)"]
+    },
+    "tech_stack": {
+        "label": { "en": "Industrial-standard scraping engines", "ua": "Професійні рушії парсингу", "ru": "Профессиональные движки парсинга" },
+        "repos": [
+            {"name": "Scrapy", "url": "github.com/scrapy/scrapy", "desc": "Powerful high-level scraping and crawling framework."},
+            {"name": "BeautifulSoup", "url": "pypi.org/project/beautifulsoup4", "desc": "Advanced HTML parsing and entity extraction."},
+            {"name": "Selenium", "url": "github.com/SeleniumHQ/selenium", "desc": "Browser automation for dynamic job boards."},
+            {"name": "theHarvester", "url": "github.com/laramies/theHarvester", "desc": "Email and domain intelligence discovery."}
+        ]
+    },
+    "agent_source": "MANUAL_FIX_B003_JOB_INTEL"
+}
